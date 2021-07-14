@@ -11,6 +11,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HireMeComponent } from './hire-me/hire-me.component';
 import { BlogComponent } from './blog/blog.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BlogComponent } from './blog/blog.component';
     PortfolioComponent,
     ResumeComponent,
     HireMeComponent,
-    BlogComponent
+    BlogComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
